@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>EEG Signal Information</title>
+    </head>
+    <body>
+        <h1>EEG Signal Information</h1>
+      <ul>
+        <li>Number of channels: {{ n_channels }}</li>
+        <li>Channel names: {{ channel_names }}</li>
+        <li>Sampling frequency: {{ sfreq }} Hz</li>
+        <li>Recording duration: {{ duration }} seconds</li>
+      </ul>
+        <h1>Before Applying Filters</h1>
+        <img src="/static/eeg_signals1.png" alt="EEG Signals Plot"/>
+        <h1>After Applying Filters</h1>
+        <img src="/static/eeg_signals2.png" alt="EEG Signals Plot"/>
+    </body>
+</html>
